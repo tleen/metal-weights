@@ -1,0 +1,38 @@
+{
+  "name": "metal-weights",
+  "version": "0.0.0",
+  "description": "Pre-defined formulae for metal weight calculatons",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/grunt-cafe-mocha/node_modules/mocha/bin/mocha --ui bdd --reporter spec --require should test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tleen/metal-weights.git"
+  },
+  "keywords": [
+    "metal",
+    "weight",
+    "calculator",
+    "formula"
+  ],  
+  "author": {
+    "name" : "Tom Leen",
+    "email" : "tl@thomasleen.com",
+    "url" : "http://www.thomasleen.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tleen/metal-weights/issues"
+  },
+  "devDependencies" : {    
+    "grunt" : "0.4.5",
+    "grunt-cafe-mocha" : "0.1.13",
+    "grunt-contrib-jshint" : "0.11.0",
+    "should" : "5.2.0"
+  },
+  "dependencies" : {
+    "dbcsv" : "0.0.2",
+    "lodash" : "3.5.0"
+  }
+}
